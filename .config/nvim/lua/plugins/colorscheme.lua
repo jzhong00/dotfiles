@@ -1,11 +1,9 @@
 return {
-  "neanias/everforest-nvim",
+  "catppuccin/nvim",
   priority = 1000,
   lazy = false,
   config = function()
-    require("everforest").setup({
-      background = "soft",
-    })
-    vim.cmd("colorscheme everforest")
+    require("catppuccin").setup({})
+    vim.cmd("colorscheme catppuccin-frappe")
   end,
 }
