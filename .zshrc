@@ -31,4 +31,6 @@ fi
 
 alias ei="cd ~/Documents/Exam\ Insights/Code/v2/ExamInsightsMicroservices"
 alias sshdo="ssh -i ~/.ssh/id_digitalocean root@134.199.166.127"
+alias lzd="lazydocker"
 
+neofetch
