@@ -16,6 +16,7 @@ export EDITOR='nvim'
 export VISUAL='nvim'
 export PATH="/Applications/Postgres.app/Contents/Versions/16/bin:$PATH"
 export PATH="$HOME/Library/Python/3.12/bin:$PATH"
+export PATH="$(go env GOPATH)/bin:$PATH"
 export DYLD_LIBRARY_PATH="/Applications/Postgres.app/Contents/Versions/16/lib:$DYLD_LIBRARY_PATH"
 export TERM="xterm-256color"
 
@@ -30,7 +31,13 @@ fi
 [ -f "/Users/jasonzhong/.ghcup/env" ] && . "/Users/jasonzhong/.ghcup/env" # ghcup-env
 
 alias ei="cd ~/Documents/Exam\ Insights/Code/v2/ExamInsightsMicroservices"
+alias fk="cd ~/Documents/Exam\ Insights/Code/random/fikapay"
+alias p3="python3"
 alias sshdo="ssh -i ~/.ssh/id_digitalocean root@134.199.166.127"
 alias lzd="lazydocker"
 
 neofetch
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk@21/include"
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk@21/include"
